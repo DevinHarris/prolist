@@ -109,6 +109,13 @@ nav {
 .item-name {
 	font-weight: 300;
 	margin-bottom: 10px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.remove {
+	color: #e8117f;
+	text-decoration: none;
 }
 
 .item .product-price {
@@ -138,6 +145,7 @@ nav {
 
 .promo {
 	position: relative;
+	margin: 30px 0;
 }
 
 .promo-code {
@@ -169,7 +177,7 @@ nav {
 .items .item {
 	height: 70px;
 	border-bottom: 1px solid #e6e6e6;
-	padding: 15px;
+	padding: 35px;
 }
 
 .items li:last-of-type { border-bottom: none; }
