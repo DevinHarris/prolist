@@ -153,7 +153,7 @@
 					if (itemID === cart.items[item].productName) {
 						cart.items.splice(cart.items.indexOf(cart.items[item]), 1);
 						// fix this
-						totalEl.innerText = "Total: " + "$" + (cart.total - cart.items[item].price); 
+						//totalEl.innerText = "Total: " + "$" + (cart.total - cart.items[item].price); 
 					}
 				}
 				e.preventDefault();
